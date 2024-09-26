@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_section_feature_products",
+  "info": {
+    "displayName": "Feature Product",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-eliments.button"
+    }
+  }
+}
